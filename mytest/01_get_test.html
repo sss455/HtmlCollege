@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>初めてのウェブページ</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row mb-3"><a href="index.html">←Indexへ</a></div>
+
+            <form action="01_get_test.php" method="get">
+                <div class="row mb-3">
+                    氏名：<input type="text"   name="name">
+                </div>
+                <div class="row mb-4">
+                    年齢：<input type="number" name="age"><br>
+                </div>
+
+<!--
+                <div class="row mb-3">
+                    ラジオボタン：
+                    <label><input type="radio" name="servant_radio">犬</label>
+                    <label><input type="radio" name="servant_radio" class="ml-2">猿</label>
+                    <label><input type="radio" name="servant_radio" class="ml-2">雉</label>
+                </div>
+  
+                <div class="row mb-3">
+                    チェックボックス：
+                    <label><input type="checkbox" name="servant_chk">犬</label>
+                    <label><input type="checkbox" name="servant_chk" class="ml-2">猿</label>
+                    <label><input type="checkbox" name="servant_chk" class="ml-2">雉</label>
+                </div>
+
+
+                <div class="row mb-4">
+                    プルダウンリスト：
+                    <select name="servant_select">
+                        <option value="0">犬</option>
+                        <option value="1">猿</option>
+                        <option value="2">雉</option>
+                    </select>
+                </div>
+
+                <div class="row">
+                    <label for="tbox">手土産にする玉手箱を選んでください。</label><br>
+                </div>
+                <div class="row mb-5">
+                    <select id="tbox" multiple>
+                        <option value="0">玉手箱（大）</option>
+                        <option value="1">玉手箱（中）</option>
+                        <option value="2">玉手箱（小）</option>
+                    </select>
+                </div>
+-->
+
+                <div class="row">
+                    <input type="submit" value="送信" />
+                </div>
+
+
+            </form>
+        </div>
+    </body>
+</html>
