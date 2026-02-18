@@ -4,7 +4,7 @@
         // ホスト名、ポート番号、データベース名
         'pgsql:host=localhost port=5432 dbname=mvcdb',
         'mvcuser',  // DBユーザー名
-        'mvcuser',  // パスワード
+        'mvcpass',  // パスワード
         [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]
     );
 
